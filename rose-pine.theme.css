@@ -8,15 +8,6 @@
 * @updateUrl https://github.com/rose-pine/discord/blob/rose-pine.theme.css
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
-:root {
---Chat-Font-Used: 'Fira Code', normal ;
---Chat-Font-Size: 14px;
-}
-:not([class="hljs"]):not(code){
-font-family: var(--Chat-Font-Used)!important;
-}
-
 .theme-dark {
     --background-primary: #26233a;
     --background-secondary: #1f1d2e;
@@ -61,10 +52,6 @@ font-family: var(--Chat-Font-Used)!important;
     --interactive-normal: #575279;
     --interactive-hover: #6e6a86;
     --interactive-active: #575279;
-}
-
-body {
-    --font-display: Fira Code;
 }
 
 .body-2wLx-E, .headerTop-3GPUSF, .bodyInnerWrapper-2bQs1k, .footer-3naVBw {
